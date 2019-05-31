@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{3BA60DC0-FD99-7B73-75D5-108C95A78600}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/Phong.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/Xray.shader">
     <Files>
       <File FileName="Assets/Shaders/Outline.shader" Line="1" Column="1" />
       <File FileName="Assets/Shaders/Phong.shader" Line="1" Column="1" />
+      <File FileName="Assets/Shaders/Xray.shader" Line="1" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="cmpm163-hw2" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Shaders" expanded="True">
-                <Node name="Phong.shader" selected="True" />
+                <Node name="Xray.shader" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f0cb84f1-41b4-4eab-a29e-97df317fd436" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="197b18bc-e07b-4804-a866-7a219bb54ed7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
