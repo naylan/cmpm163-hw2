@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BloomShader: {fileID: 4800000, guid: 2d43e6183c12d464c9f3b97bc33ee86c, type: 3}
-  BloomFactor: 46.1
+  BloomFactor: 45
 --- !u!1 &1010285629
 GameObject:
   m_ObjectHideFlags: 0

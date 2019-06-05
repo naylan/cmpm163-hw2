@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CreateMeshSimple.cs" />
     <Compile Include="Assets\Scripts\RenderEffectBloom.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\Player.cs" />
     <Compile Include="Assets\Stylized Astronaut\Character\ThirdPersonCamera.cs" />
@@ -67,6 +68,7 @@
     <None Include="Assets\Shaders\Xray.shader" />
     <None Include="Assets\Shaders\Bloom.shader" />
     <None Include="Assets\Shaders\Outline.shader" />
+    <None Include="Assets\Shaders\Reflective.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/naylanadre/Desktop/cmpm163-hw2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -637,6 +639,12 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2018.3.11f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{A24AB216-C1F8-E334-AEE2-91E0630BFEF4}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
